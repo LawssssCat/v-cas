@@ -1,0 +1,8 @@
+#SSL配置
+server:
+  ssl:
+    enabled: true
+    key-store: classpath:server:p12
+    key-store-password: javacas
+    key-password: javacas
+    keyAlias: cas-server
