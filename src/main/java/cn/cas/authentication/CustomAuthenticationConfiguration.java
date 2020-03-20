@@ -1,5 +1,7 @@
-package cn.cas;
+package cn.cas.authentication;
 
+import cn.cas.authentication.handler.CustomerAuthenticationHandler;
+import cn.cas.authentication.handler.CustomerAuthenticationHandler2;
 import org.apereo.cas.authentication.AuthenticationEventExecutionPlan;
 import org.apereo.cas.authentication.AuthenticationEventExecutionPlanConfigurer;
 import org.apereo.cas.authentication.AuthenticationHandler;
@@ -28,12 +30,12 @@ public class CustomAuthenticationConfiguration implements AuthenticationEventExe
     @Bean
     public AuthenticationHandler customerAuthenticationHandler() {
         System.out.println("initializating AuthenticationHandler@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@");
-        String name = CustomerAuthenticationHandler.class.getName();
+        String name = CustomerAuthenticationHandler2.class.getName();
         ServicesManager servicesManager = this.servicesManager;
         PrincipalFactory principalFactory = new DefaultPrincipalFactory();
         // 定义为优先优先使用
         Integer order = 1;
-        return new CustomerAuthenticationHandler(name,servicesManager, principalFactory, order) ;
+        return new CustomerAuthenticationHandler2(name,servicesManager, principalFactory, order) ;
     }
 
     // 注册自定义验证器

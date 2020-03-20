@@ -1,5 +1,0 @@
-#SSL配置
-server:
-  ssl:
-    enabled: false
-  port: 80

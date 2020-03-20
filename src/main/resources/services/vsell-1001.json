@@ -1,0 +1,9 @@
+{
+  "@class" : "org.apereo.cas.services.RegexRegisteredService",
+  "serviceId" : "^(https|imaps|http)://vsell.*",
+  "name" : "vsell",
+  "id" : 1001,
+  "description" : "vsell项目访问过来，跳转到demo主题",
+  "evaluationOrder" : 11,
+  "theme": "vsell"
+}

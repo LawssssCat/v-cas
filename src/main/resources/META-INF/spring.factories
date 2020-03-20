@@ -1,1 +1,1 @@
-org.springframework.boot.autoconfigure.EnableAutoConfiguration=cn.cas.CustomAuthenticationConfiguration
+org.springframework.boot.autoconfigure.EnableAutoConfiguration=cn.cas.authentication.CustomAuthenticationConfiguration

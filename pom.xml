@@ -97,6 +97,7 @@
             <version>${cas.version}</version>
         </dependency>--><!-- Custom Authentication -->
 
+        <!--mysql 驱动-->
         <dependency>
             <groupId>mysql</groupId>
             <artifactId>mysql-connector-java</artifactId>
@@ -129,6 +130,11 @@
             <artifactId>lombok</artifactId>
             <version>1.18.6</version>
         </dependency>
+<!--        <dependency>
+            <groupId>org.apereo.cas</groupId>
+            <artifactId>cas-server-support-json-service-registry</artifactId>
+            <version>${cas.version}</version>
+        </dependency>-->
     </dependencies>
 
     <repositories>

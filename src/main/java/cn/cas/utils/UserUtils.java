@@ -1,7 +1,6 @@
 package cn.cas.utils;
 
-import cn.cas.User;
-import org.springframework.jdbc.core.ColumnMapRowMapper;
+import cn.cas.model.User;
 import org.springframework.jdbc.core.JdbcTemplate;
 import org.springframework.jdbc.core.RowMapper;
 import org.springframework.jdbc.datasource.DriverManagerDataSource;

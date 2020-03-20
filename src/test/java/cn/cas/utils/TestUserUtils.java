@@ -1,6 +1,6 @@
 package cn.cas.utils;
 
-import cn.cas.User;
+import cn.cas.model.User;
 import org.junit.Test;
 
 public class TestUserUtils {

@@ -1,4 +1,4 @@
-package cn.cas;
+package cn.cas.model;
 
 import lombok.Data;
 
