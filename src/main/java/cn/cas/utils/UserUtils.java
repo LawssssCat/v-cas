@@ -36,6 +36,7 @@ public class UserUtils {
                 try {
                     u.setUsername(resultSet.getString("mg_name"));
                     u.setPassword(resultSet.getString("mg_pwd"));
+                    u.setSalt(resultSet.getString("mg_salt"));
                     u.setExpired(resultSet.getInt("mg_expired"));
                 } catch (Exception ignored) {
                 }
